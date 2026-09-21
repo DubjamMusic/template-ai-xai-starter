@@ -1,0 +1,17 @@
+{
+  "figureId": "spark-wright",
+  "codename": "SPARK-WRIGHT-21",
+  "waveId": "2026-09-21-f-kiln",
+  "repo": "DubjamMusic/template-ai-xai-starter",
+  "surfaces": [
+    {"id": "providers", "path": "ai/providers.ts", "class": "kit"},
+    {"id": "tools", "path": "ai/tools.ts", "class": "kit"},
+    {"id": "env", "path": ".env.example", "class": "kit"},
+    {"id": "app", "path": "app", "class": "app"},
+    {"id": "lib", "path": "lib", "class": "app"}
+  ],
+  "envNamesOnly": ["XAI_API_KEY"],
+  "frozen": ["affirmAgent.ts", "challengeAgent.ts"],
+  "bannedTokens": ["planner", "executor", "monitor", "data_agent"],
+  "lever": "V"
+}
